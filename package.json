@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/washt/api.washt.xyz",
   "dependencies": {
-    "hapi": "^13.5.0"
+    "hapi": "^13.5.0",
+    "node-fetch": "^1.5.3"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^2.5.3"
   }
 }
