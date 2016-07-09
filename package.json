@@ -1,0 +1,27 @@
+{
+  "name": "washt.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/washt/api.washt.xyz.git"
+  },
+  "keywords": [],
+  "author": "Tucker Wash",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/washt/api.washt.xyz/issues"
+  },
+  "homepage": "https://github.com/washt/api.washt.xyz",
+  "dependencies": {
+    "hapi": "^13.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
