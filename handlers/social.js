@@ -1,9 +1,10 @@
 var config = require('../config.js');
 
 const root = {
-  about: config.baseurl + 'about/',
-  contact: config.baseurl + 'contact/',
-  social: config.baseurl + 'social/',
+	twitter: "https://twitter.com/ducktuckgo",
+  github: "https://github.com/washt",
+  hn: "https://news.ycombinator.com/user?id=washt",
+	activity: config.baseurl + 'activity/',
 };
 
 module.exports = root;

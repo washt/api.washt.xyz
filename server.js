@@ -5,6 +5,7 @@ var home = require('./handlers/home.js');
 var about = require('./handlers/about.js');
 var contact = require('./handlers/contact.js');
 var social = require('./handlers/social.js');
+var activity = require('./handlers/activity.js');
 
 const server = new hapi.Server();
 server.connection({ port: 3000 });
@@ -38,6 +39,14 @@ server.route({
 	path: '/social',
 	handler: function (request, reply) {
 	  reply(social);
+  }
+});
+
+server.route({
+  method: 'GET',
+	path: '/activity',
+	handler: function (request, reply) {
+	  reply(activity);
   }
 });
 

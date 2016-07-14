@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/washt/api.washt.xyz",
   "dependencies": {
+    "bluebird": "^3.4.1",
     "hapi": "^13.5.0",
     "node-fetch": "^1.5.3"
   },
