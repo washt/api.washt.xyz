@@ -15,7 +15,6 @@ let activity = (function () {
 
 	Promise.all([github,weather,hn])
 	  .then((data) => {
-			console.log(data[2])
 			return data
 		})
     .catch(err => {

@@ -8,7 +8,7 @@ var social = require('./handlers/social.js');
 var activity = require('./handlers/activity.js');
 
 const server = new hapi.Server();
-server.connection({ port: 80 });
+server.connection({ port: process.env.PORT });
 
 server.route({
   method: 'GET',
