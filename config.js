@@ -1,7 +1,7 @@
 'use strict';
 
 var config = {
-	baseurl: "http://0.0.0.0/",
+	baseurl: "http://api.washt.xyz/",
   port: "3000"
 };
 
