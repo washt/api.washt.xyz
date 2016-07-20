@@ -46,8 +46,10 @@ server.route({
   method: 'GET',
 	path: '/activity',
 	handler: function (request, reply) {
-	  let act = activity()
-	  reply(act)
+	  activity()
+	    .then(data => {
+        reply(data)
+			})
   }
 });
 
