@@ -1,9 +1,8 @@
 'use strict';
 
 const config = require('../config');
-
-var assert = require('chai').assert;
-var fetch = require('node-fetch');
+const assert = require('chai').assert;
+const fetch = require('node-fetch');
 
 describe('Handler', function() {
   describe('Home', function() {

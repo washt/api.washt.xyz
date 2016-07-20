@@ -1,8 +1,8 @@
 'use strict';
 
-var config = {
+const config = {
 	baseurl: "http://api.washt.xyz/",
-  port: "3000"
+  port: process.env.PORT 
 };
 
 module.exports = config;

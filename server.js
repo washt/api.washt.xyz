@@ -1,11 +1,11 @@
 'use strict';
 
-var hapi = require('hapi');
-var home = require('./handlers/home.js');
-var about = require('./handlers/about.js');
-var contact = require('./handlers/contact.js');
-var social = require('./handlers/social.js');
-var activity = require('./handlers/activity.js');
+const hapi = require('hapi');
+const home = require('./handlers/home.js');
+const about = require('./handlers/about.js');
+const contact = require('./handlers/contact.js');
+const social = require('./handlers/social.js');
+const activity = require('./handlers/activity.js');
 
 const server = new hapi.Server();
 server.connection({ port: process.env.PORT });

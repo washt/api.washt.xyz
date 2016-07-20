@@ -1,4 +1,6 @@
-var config = require('../config.js');
+'use strict';
+
+const config = require('../config.js');
 
 const root = {
 	email: "washt23@gmail.com",
