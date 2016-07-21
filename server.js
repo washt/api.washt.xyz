@@ -14,6 +14,7 @@ server.route({
   method: 'GET',
 	path: '/',
 	handler: function (request, reply) {
+		console.log(request.info);
 	  reply(home);
   }
 });
@@ -22,6 +23,7 @@ server.route({
   method: 'GET',
 	path: '/about',
 	handler: function (request, reply) {
+		console.log(request.info);
 	  reply(about);
   }
 });
@@ -30,6 +32,7 @@ server.route({
   method: 'GET',
 	path: '/contact',
 	handler: function (request, reply) {
+		console.log(request.info);
 	  reply(contact);
   }
 });
@@ -38,6 +41,7 @@ server.route({
   method: 'GET',
 	path: '/social',
 	handler: function (request, reply) {
+		console.log(request.info);
 	  reply(social);
   }
 });
@@ -46,6 +50,7 @@ server.route({
   method: 'GET',
 	path: '/activity',
 	handler: function (request, reply) {
+		console.log(request.info);
 	  activity()
 	    .then(data => {
         reply(data)
